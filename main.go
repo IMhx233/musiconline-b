@@ -10,6 +10,6 @@ func main(){
 	r:=gin.Default()
 	r.POST("password")
 	
-	// r.Run(":5173")
+	r.Run(":5173")
 	
 }

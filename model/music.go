@@ -1,7 +1,14 @@
 package model
 
-type MusicInfo struct {
-	MusicName string
-	Artist    string
-	Tags      string
+type Music struct {
+	ID       int
+	Name     string
+	Path     string
+	Tags     string
+	Lrcpath  string
+	Artist   string
+	Album    string
+	Length   int
+	isdelete bool
+	hot      int
 }
